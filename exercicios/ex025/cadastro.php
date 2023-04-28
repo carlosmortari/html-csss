@@ -1,3 +1,3 @@
-<h1>Obrigado !</h1>
-<h2>Os dados foram enviados!</h2>
+Obrigado !
+Os dados foram enviados!
 Aprenda PHP para saber  oque fazer com ele.
