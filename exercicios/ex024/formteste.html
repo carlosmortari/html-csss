@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste formulario</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            color: rgb(161, 13, 8);
+        }
+        h2 {
+            font-size: 1em;
+            font-weight: 200;
+         }
+         label{
+            font-weight: bold;
+         }
+    </style>
+</head>
+<body>
+    <h1>Teste</h1>
+    <form action="cadastro.html" method="get">
+        
+            <h1>Agendamento para banho e tosa</h1>
+            <h2>Faça o seu agendamento com pelo menos 48 horas de antecendencia</h2>
+            <fieldset>
+                <legend>Pet Shop Campinas (<strong>Identificação do dono do animal</strong>)</legend>
+            <label for="inome">Nome:
+                <input type="text" name="nome" id="inome" placeholder="Digite o nome completo do dono do animal" required size="35" autocomplete="name">
+            <p>
+                <label for="iendereco">Endereço:
+                    <input type="text" name="endereco" id="iendereco" required placeholder="Digite o endereço" size="60">
+                </label>
+            </p>
+            <p>
+                <label for="icep">Cep:
+                    <input type="text" name="cep" id="icep" required placeholder="xxxxx-xxx" size="6" maxlength="8">
+                </label>
+            </p>
+            <p>
+                <label for="iemail">Email:
+                    <input type="email" name="email" id="iemail" required placeholder="Digite o endereço de email" size="40" >
+                </label>
+            </p>
+            <p>
+                <label for="itel">Tel/Cel:
+                    <input type="tel" name="telefone" id="itel" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(99)9999-9999" size="15" maxlength="13">
+                </label>
+            </p>
+            </label>
+        </fieldset>
+        <p>
+            <fieldset>
+                <legend>Animal</legend>
+                
+                <label for="ianimal">Nome:
+                    <input type="text" name="animal" id="ianimal" placeholder="Digite o nome do Animal" required maxlength="20">
+                </label>
+                </p>
+                <p>
+                    <strong>porte do cão:</strong>
+                    <input type="radio" name="porte" id="ipequeno" value="animal_pequeno" checked>Pequeno 
+                    <input type="radio" name="porte" id="medio" value="animal_medio">Médio
+                    <input type="radio" name="porte" id="grande" value="animal_grande">Grande
+                </p>
+                <p>
+                    <strong>tipo de tosa:</strong>
+                 <select name="tipo_tosa" id="itipo_tosa" required>
+                 <option value="">nenhuma</option>
+                 <option value="padrao">tosa padrão</option>
+                 <option value="higienica">tosa higiênica</option>
+                 <option value="tesoura">tosa na tesoura</option>
+                 <option value="raca">tosa da raça</option>
+                 <option value="bebe">tosa bebê</option>
+                 </select>
+                </p>
+                <p>
+                    <strong>Observações</strong> ⬇️
+                    <p><textarea name="obs" id="observacao" placeholder="Digite alguma informação sobre o animal se necessario." cols="" rows="5"></textarea></p>
+                </p>
+                    
+            </fieldset>
+
+            <fieldset id="ident_marcacao">
+                <legend>Horário - (<strong>Não atendemos aos domingos e ás segundas-feiras</strong>)</legend>
+                <p>
+                 Indique os dias da semana de sua preferência: <br>
+                 <input type="checkbox" name="semana" id="idterca">Terça-Feira
+                 <input type="checkbox" name="semana" id="idquarta">Quarta-Feira
+                 <input type="checkbox" name="semana" id="idquinta">Quinta-Feira 
+                 <input type="checkbox" name="semana" id="idsexta">Sexta-Feira 
+                 <input type="checkbox" name="semana" id="idsabado">Sabado
+                </p>
+                <p>
+                    <strong>Primeira opção de horario:</strong>
+                    <input type="date" name="pdata" id="idata" required>
+                </p>
+                <p>
+                    <strong>Segunda opção de horario:</strong>
+                    <input type="date" name="pdata" id="sdata" required>
+                </p>
+            </fieldset>
+            <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
