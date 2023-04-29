@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro" autocomplete="on" method="get">
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label for="inome">Nome:
+                <input type="text" name="nome" id="inome" required autocomplete="name">
+            </label>
+            <p>
+            <label for="isdade">Idade:
+                <input type="number" name="idade" id="isdade" required >
+            </label>
+        </p>
+        <p>
+            <label for="iendereco">Endereço:
+                <input type="text" name="add" id="iendereco" required>
+            </label>
+        </p>
+        <p>
+            <label for="icidade">Cidade:
+                <input type="text" name="cidade" id="icidade" required size="40" >
+            </label>
+        </p>
+        <p>
+            <label for="iestado">Estado:
+                <select name="estado" id="iestado">
+                <optgroup label="Estado A">
+                    <option value="">-- Escolha --</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="mg">Minas Gerais</option>
+                </optgroup>
+                <optgroup label="Estado B">
+                    <option value="bh">Belo Horizonte</option>
+                    <option value="ba">Bahia</option>
+                    <option value="rn">Rio grande do sul</option>
+                </optgroup>
+            </select>
+            </label>
+        </p>
+        <p>
+            <label for="icep">Cep:
+                <input type="number" name="cep" id="icep" required autocomplete="postal-code">
+            </label>
+        </p>
+        <p>
+            <label for="itel">Telefone/Celular:
+                <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx)9999-9999">
+            </label>
+        </p>
+        <p>
+            <label for="iemail">E-mail
+                <input type="email" name="email" id="iemail" required autocomplete="email">
+            </label>
+        </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
