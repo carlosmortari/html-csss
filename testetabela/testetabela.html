@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 130px;
+            height: 100px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        td {
+            width: 80px;
+        }
+
+        td.g {
+            font-weight: bolder;
+        }
+
+        table#p {
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>Livro</td>
+            <td>Exel 2013</td>
+            <td>HTML5</td>
+        </tr>
+        <tr>
+            <th>Quantidade</th>
+            <td>200</td>
+            <td>180</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Teste tabela (ração)</h1>
+
+    <table id="p" border="1">
+        <caption>Produtos</caption>
+        <tr>
+            <th >Porte</th>
+            <th colspan="2">Marca</th>
+            <th>preço</th>
+        <tr>
+            <td class="g" rowspan="2">pequeno</td>
+            <td>vestibulm</td>
+            <td><img src="OIP.jpg" alt=""></td>
+            <td class="g">R$ 5,00</td>
+            <tr>
+                <td>Nunc</td>
+                <td><img src="OIP.jpg" alt=""></td>
+                <td class="g">R$ 4,80</td>
+            </tr>
+            <tr>
+                <td  class="g"  rowspan="2">Médio</td>
+                <td>Molis</td>
+                <td><img src="OIP.jpg" alt=""></td>
+                <td class="g" >R$ 6,90</td>
+            </tr>
+            <tr>
+                <td>Porttitor</td>
+                <td><img src="OIP.jpg" alt=""></td>
+                <td class="g">R$ 3,90</td>
+            </tr>
+            <tr>
+                <td  class="g" rowspan="2">Grande</td>
+                <td>Lacinia</td>
+                <td><img src="OIP.jpg" alt=""></td>
+                <td class="g" >R$ 6,90</td>
+            </tr>
+            <tr>
+                <td>Sapein</td>
+                <td><img src="OIP.jpg" alt=""></td>
+                <td class="g" >R$ 3,90</td>
+            </tr>
+        </tr>
+        </tr>
+    </table>
+</body>
+</html>
