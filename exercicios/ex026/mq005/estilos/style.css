@@ -21,8 +21,22 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+i#burguer {
+    background-color: rgb(29, 28, 28);
+    color: white;
+    text-align: center;
+    padding: 10px;
     display: block;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display:none ;
 }
 
 menu > ul {
