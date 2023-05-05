@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html  {
+    background-color:#5f2c82 ;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section#login-conteiner {
+    background-color: white;
+    width: 250px;
+    height: 520px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.582);
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease;
+}
+
+section#login-conteiner > div#imagem {
+    background-image: url(../pexels-scott-webb-305816.jpg);
+    height: 200px;
+    
+}
+
+section#login-conteiner > div#formulario {
+    padding: 10px;
+    display: block;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin: 5px;
+}
+
+div#formulario > p {
+    line-height: 20px;
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    
+}
+
+
+form > div.campo {
+    background-color: #5f2c82;
+    border: 2px solid #5f2c82;
+    width: 100%;
+    display: block;
+    height: 34px;
+    border-radius:8px ;
+    margin: 5px 0px;
+}
+
+div.campo > i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+background-color: #6ac4c1;
+  font-size: 1em;
+  height: 62%;
+  width: 71%;
+  transform: translateY(-14px);
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+  
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+ }
+
+ form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:rgb(96, 165, 142) ;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+ }
+
+ form > input[type=submit]:hover {
+    background-color: #315554;
+ }
+
+ form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    padding-top: 5px;
+    background-color: #ffffff;
+    color: #1b3a38;
+    border:1px solid #64e0dc ;
+    border-radius: 7px;
+    text-decoration: none;
+
+ }
+ 
+ form > a.botao:hover {
+    background-color: #64e0dc;
+ }
+
+ form > a.botao > i {
+    font-size: 0.8em;
+ }

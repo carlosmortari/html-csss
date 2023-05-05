@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    section#login-conteiner {
+        display: flex;
+        width: 80vw;
+        flex-direction: row-reverse;
+
+    }
+
+   section#login-conteiner> div#imagem {
+        height: 100%;
+        width: 50%;
+        
+    }
+
+    div.campo > input {
+        width: 80%;
+    }
+
+    div#formulario > p {
+        font-size: 1.0em;
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+    section#login-conteiner {
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    section#login-conteiner > div#imagem {
+        width: 50%;
+        height: 100%;
+    }
+
+    div.campo > input {
+        width: 80%;
+    }
+
+    div#formulario > p {
+        font-size: 1.1em;
+    }
+    
+}
