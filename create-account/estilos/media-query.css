@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1000px) {
+    section > img {
+        width: 400px;
+    }
+
+    
+}
+
+@media screen and (max-width:900px) {
+    main {
+        width:70vw;
+    }
+
+    section > img {
+        display: none;
+    }
+
+    section div.circle2 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(to top, #e8cbc0cc, #636fa4c4);
+        clip-path: circle(50% at left 0);
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width:768px) {
+    section > img {
+        display: none;
+    }  
+
+    main > h1 {
+        color:white;
+    }
+    
+    
+}
