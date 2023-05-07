@@ -16,8 +16,9 @@
 body, html {
     background-color: var(--fundo);
     font-family: noto sans;
-    width: 95vw;
+    width: 100vw;
     height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,8 +28,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: var(--corpo);
-    width: 80vw;
-    height: 90vh;
+    width: 50vw;
     padding: 20px;
     border-radius: 30px;
 
@@ -44,10 +44,13 @@ div > h1 {
 
 }
 
-form {
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 400px;
     background-color: var(--form);
-    height: 380px;
-    width: 300px;
     margin: auto;
     border-radius: 15px;
     box-shadow: 10px solid black;
@@ -72,10 +75,9 @@ form > label > span {
 }
 
 form > label > input {
-    width: 180px;
-    height: 35px;
+    height: 2.8rem;
     border-radius: 10px;
-    margin: auto;
+    
     background-color: var(--btn);
     border: none;
     color: white;

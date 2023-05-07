@@ -17,9 +17,9 @@
     }
 
     
-    form {
+   main form {
         width: 350px;
-        height: 80%;
+        height:500px;
         padding: 15px;
     }
 
@@ -29,10 +29,11 @@
         flex-direction: column;
     }
 
-    form > label > input {
-        width: 80%;
+   form > label > input {
+        width: 90%;
         height: 40px;
     }
+
 
     form > input[type=submit]{
         width: 70%;
