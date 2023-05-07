@@ -28,8 +28,8 @@ main {
     flex-direction: column;
     background-color: var(--corpo);
     width: 70%;
-    height: 80%;
-    padding: 30px;
+    height: 70%;
+    padding: 20px;
     border-radius: 30px;
 
 }
@@ -46,7 +46,7 @@ div > h1 {
 
 form {
     background-color: var(--form);
-    height: 320px;
+    height: 300px;
     width: 250px;
     margin: auto;
     border-radius: 15px;
