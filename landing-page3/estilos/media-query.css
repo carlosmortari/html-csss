@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (max-width:768px) {
+
+    body, html {
+        width:100vw;
+    }
+    
+    nav.conteiner {
+        display: none;
+    }
+
+    header > div.tituloh {
+        margin: auto;
+    }
+    main {
+        flex-direction: column;
+        
+    }
+
+    main > section {
+        width:90vw;
+        height: 300px;
+        padding-top:10px;
+        margin: auto;
+    }
+
+    section > h2 {
+        font-size: 1.8em;
+        width: 280px;
+    }
+
+
+   div > img {
+        margin: 0px;
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    a.btn {
+        width: 200px;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
