@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    
+}
+
+.conteiner {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 200px;
+    top: 150px;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.box {
+    position: absolute;
+    height: px;
+    background-color: green;
+}
+
+div.img > img{
+    position:relative;
+    left:650px;
+    bottom: 240px;
+    width: 400px;
+
+}
