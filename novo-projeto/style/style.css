@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #9494ee;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Foto 1*/
+#conteiner-foto {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+}
+
+
+#form-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #fde3a7d7;
+
+}
+
+#form-image img {
+    width: 31rem;
+}
+/*Foto 1*/
+
+
+/*Formulario Conteiner pai*/
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3rem;
+}
+/*Formulario Conteiner pai*/
+
+/*formulario header h1 e botao entrar*/
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+/*formulario header h1 e botao entrar*/
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+}
+
+/*login botao*/
+.login-botao {
+    display: flex;
+    align-items: center;
+
+}
+
+.login-botao button {
+    border:none;
+    background-color: #6c63ff;
+    padding: 0.5rem;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-botao button:hover{
+    background-color:#6b63fff1;
+}
+
+.login-botao button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+/*login botao*/
+
+
+/*todo o formulario pai*/
+.input-grupo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+/*todo o formulario pai*/
+
+/* div que contem o input*/
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+/* div que contem o input*/
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding:0.8rem 1.2rem ;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+}
+
+
