@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1209px) {
+    #form-image {
+        display: none;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    #conteiner-foto{
+        width: 60%;
+    }
+
+   
+
+    
+}
+
+@media screen and (max-width:910px) {
+    #form-image {
+        display: none;
+    }
+
+    #conteiner-foto{
+        width: 90%;
+        height: auto;
+    }
+
+    .input-grupo {
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+       padding-right: 2rem;
+       padding-left: 2rem;
+        
+    }
+
+    .radio-grupo{
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .radio-titulo {
+        margin-top: 10px;
+        padding: 10px;
+    } 
+    
+    
+}

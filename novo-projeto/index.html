@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
 
@@ -58,12 +59,12 @@
                         <input type="password" name="confirma" id="confirma" placeholder="Digite sua senha " required>
                     </div>
                 </div>
-
+                <!--Radio pai-->
                 <div class="radio-conteiner">
                     <div class="radio-titulo">
                         <h6>Gênero</h6>
                     </div>
-
+                    <!--radio filhos-->
                     <div class="radio-grupo">
                         <div class="radio-input">
                             <input type="radio" name="gender" id="fem">
@@ -85,14 +86,25 @@
                             <label for="none">Não dizer</label>
                         </div>
                     </div>
+                     <!--radio filhos-->
                 </div>
+                 <!--Radio pai-->
                 <!--Todo o formulario, input, label -->
 
                 <div class="btn">
-                    <button><a href="#">Continuar</a></button>
+                    <button onclick="continuar()"><a href="#">Continuar</a></button>
                 </div>
             </form>
         </div>
     </div>
+
+    <script>
+        function continuar() {
+            var nome = document.getElementById('primeironome').value
+            var sobre = document.getElementById('segundonome').value
+            
+            alert(`${nome} ${sobre} Seus Dados foram Enviados !! Muito obrigado por se ajuntar conosco`)
+        }
+    </script>
 </body>
 </html>

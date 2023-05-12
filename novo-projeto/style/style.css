@@ -122,7 +122,42 @@ body {
     padding:0.8rem 1.2rem ;
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px black;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.295);
 }
+
+.radio-conteiner {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.radio-grupo {
+    display: flex;
+    flex-direction: row;
+   gap: 50px;
+   margin-top: 15px;
+}
+
+.btn button {
+    width: 100%;
+    background-color: #6c63ff;
+    padding: 15px;
+    margin-top:30px ;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #534bf3;
+}
+
+.btn button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
 
 
