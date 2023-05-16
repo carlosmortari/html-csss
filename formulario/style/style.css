@@ -26,7 +26,6 @@ body, html {
     height: 500px;
     background-color:rgba(5, 13, 26, 0.897);
     border-radius: 15px;
-    width: 60%;
     height: 600px;
     
     
@@ -38,6 +37,7 @@ form {
     justify-content: center;
     flex-direction: column;
     
+
     
    
 }
