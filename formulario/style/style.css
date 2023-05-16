@@ -22,10 +22,11 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
     background-color:rgba(5, 13, 26, 0.897);
     border-radius: 15px;
-    height: 90vh;
+    height: 85vh;
+    width: vw;
 }
 
 form {
@@ -33,17 +34,14 @@ form {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 90vh;
+    gap: 10px;
+    padding: 6px;
+    width: 300px;
     
    
 }
 
-fieldset {
-    border: 3px solid dodgerblue;
-    padding: 5px;
-    width: 300px;
-    height: 90vh;
-}
+
 
 legend {
     height: 20px;
