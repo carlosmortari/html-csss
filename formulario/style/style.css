@@ -25,7 +25,7 @@ body, html {
     padding: 20px;
     background-color:rgba(5, 13, 26, 0.897);
     border-radius: 15px;
-    height: 85vh;
+    height: 80vh;
     width: vw;
 }
 
@@ -80,7 +80,7 @@ input[type=date]{
     color: black;
     border-radius: 10px;
     padding: 8px;
-    width: 50%;
+
     
 }
 
