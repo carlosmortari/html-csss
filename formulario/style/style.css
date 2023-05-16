@@ -26,7 +26,7 @@ body, html {
     height: 500px;
     background-color:rgba(5, 13, 26, 0.897);
     border-radius: 15px;
-    height: 600px;
+    height: 90vh;
 }
 
 form {
@@ -43,7 +43,7 @@ form {
 fieldset {
     border: 3px solid dodgerblue;
     padding: 10px;
-    height: 590px;
+    height: 580px;
     width: 300px;
 }
 
