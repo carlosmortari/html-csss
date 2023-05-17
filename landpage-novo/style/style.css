@@ -5,7 +5,7 @@
     padding: 0px;
 }
 
-body {
+body, html {
     width: 100vw;
     height: 100vh;
     background-image: linear-gradient(to right, rgb(75, 17, 150), rgb(129, 55, 226));

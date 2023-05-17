@@ -6,7 +6,6 @@
     }
 
     section {
-        height:px ;
         width: 340px;
     }
     
@@ -20,7 +19,7 @@
 
     main {
         width: 100vw;
-        height: 90vh;
+        height: 70vh;
     }
 
     header h1 {
