@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+ }
+
+ body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(248, 237, 223, 0.637);
+ }
+
+ main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+ }
+
+ section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 460px;
+    height: 470px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.582);
+    transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease;
+    
+ }
+
+ section > div#imagem {
+    background-image: url(../images/image-product-desktop.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+ }
+
+ div.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    
+}  
+
+div.formulario > div.conteudo {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;
+}
+
+div.conteudo span {
+    color: gray;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+div.conteudo h2 {
+    margin-top: 50px;
+    padding: 0px 8px;
+}
+
+div.conteudo p {
+    margin-top: 10px;
+    padding: 0px 15px;
+    
+}
+
+
+
+div.money {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+div.money a {
+    text-decoration: none;
+    
+}
+
+div.money a.verde{
+    color: rgb(12, 95, 12);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+div.money a.cinza {
+    color: grey;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+div.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box a {
+    text-decoration: none;
+    background-color: rgb(10, 92, 10);
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+}

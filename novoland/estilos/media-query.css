@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media screen and (max-width:720px) {
+    section {
+        flex-direction: column;
+        width: 330px;
+        height: 570px;
+        
+    }
+
+    div#imagem {
+        width: 100%;
+        
+    }
+
+    div.formulario {
+        width: 300px;
+    }
+
+    div.conteudo h2 {
+        margin-top:5px;
+        padding: 0px 8px;
+    }
+
+    div.conteudo p {
+        margin-top: 5px;
+        padding: 0px 5px;
+    }
+
+    div.money {
+         display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: start;
+        gap: 15px;
+    }
+
+    .box a {
+        margin-bottom: 20px;
+    }
+}
