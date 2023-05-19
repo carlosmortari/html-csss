@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@media screen and (min-width:750px) {
+    section.conteiner {
+        width: 60%;
+        height:500px;
+        background-image: url(../assets/images/bg-sidebar-desktop.svg);
+        background-repeat: no-repeat;
+        
+
+    }
+
+
+
+    div#img {
+        display: none;
+        
+    }
+
+    footer.btn {
+        display: none;
+    }
+
+    div.text {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    div.text h2 {
+        font-size: 2em;
+        margin-top: 10px;
+    }
+
+    div.text p {
+        display: none;
+    }
+
+    form.form {
+        
+        margin-left: 40%;
+        width: 60%;
+    }
+
+    form.form > input {
+        margin-bottom: 60px;
+    }
+}
