@@ -1,0 +1,52 @@
+
+@media screen and (min-width:750px){
+    section.conteiner {
+        flex-direction: row;
+        padding: 20px;
+        justify-content: center;
+        
+       
+        
+    }
+
+    
+
+    header {
+    display: none;
+       
+       
+
+    }
+
+    body, html {
+        display:block;
+        background-image: none;
+        flex-direction: row;
+        background-image: url(../images/bg-desktop.svg);
+    }
+
+    div#img {
+        width: 50%;
+        height: 65%;
+    }
+
+    div.text {
+        width: 50%;
+        padding: 0px 50px;
+        
+    }
+
+    div.text h2 {
+        font-size: 2em;
+    }
+
+    div.text p {
+        font-size: 1.5rem;
+    }
+
+    div.btn {
+        position: absolute;
+        top: 70%;
+        left: 65%;
+    }
+}
