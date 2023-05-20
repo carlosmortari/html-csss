@@ -40,7 +40,7 @@ div.text {
     display: flex;
    flex-direction: column;
    align-items: center;
-   margin-top: 10px;
+   margin-top: 20px;
     
 }
 
@@ -84,8 +84,9 @@ form {
     flex-direction: column;
     align-items: center;
     background-color: white;
-    width: 250px;
-    height: 340px;
+    width: 260px;
+    height: 350px;
+    margin-top: 15px;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.397);
