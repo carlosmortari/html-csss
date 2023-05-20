@@ -1,0 +1,36 @@
+
+@media screen and (min-width:750px) {
+    section#conteiner {
+        flex-direction: row;
+    }
+
+    div.text {
+        width: 50%;
+    }
+
+    div.text h2 {
+        font-size: 2em;
+    }
+
+    div.text p {
+        width: 400px;
+    }
+
+    div.text a {
+        position: absolute;
+        width: 40%;
+        top: 12%;
+        left: 50%;
+        text-align: center;
+        
+    }
+
+    main {
+        background-image: url(../images/bg-intro-desktop.png);
+    }
+
+    form {
+        width: 40%;
+        
+    }
+}
