@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --main-color: #d92123;
+    --primary-text-color: #fff;
+    --secondary-text-color: #191919;
+    --secondary-color: #868686;
+    --tertiary-color: #eff3f4;
+    --secondary-bg-color: #5c1011;
+    }
+    
+    * {
+    font-family: "Lato";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    a {
+    text-decoration: none;
+    }
+    
+    section.coment1 {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        width: 90%;
+        margin: auto;
+        padding-top: 15px;
+
+    }
+
+    div.pai1 {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    div.pai1 div {
+        text-align: end;
+        
+    }
+
+    div.pai1 div > h5 {
+        color: #d92123;
+        margin-bottom: 12px;
+    }
+
+    div.pai1 div > p {
+        font-weight: bold;
+        margin-bottom: 15px;
+        
+    }
+
+    div.pai1 div > img {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+
+    div.pai2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        
+        
+    }
+
+    div.pai2 div > img {
+        width: 500px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.137);
+        
+    }
+
+    section.coment2 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 90%;
+        margin: auto;
+        padding-top: 15px;
+        align-items: center;
+    }
+
+    div.text h2 {
+        text-align: center;
+        width:500px;
+    }
+
+    div.text span {
+        color: #d92123;
+    }
+
+    div.fotos {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+       
+    }
+
+    DIV.adv h5 {
+        color: #d92123;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    div.adv h6 {
+        text-align: center;
+    }
+
+    div.adv img {
+        width: 160px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.137);
+    }
+
+    div.conteiner {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        background-color: #d92123;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.137);
+        
+    }
+
+    div.conteiner img {
+        width: 650px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.137);
+    }
+
+    div.formulario {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 500px;
+        
+
+    }
+
+    #btn {
+        color: white;
+        border: 1px solid white;
+        width: 100px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #btn:hover {
+        background-color:white ;
+        color: black;
+        font-weight: bold;
+    }
+
+    form > div > input{
+        margin: 10px;
+    }
+
+    form input {
+        padding: 20px;
+        border-radius: 5px;
+        border: none;
+        width: 100%;
+        
+    }
+
+    textarea {
+        padding: 10px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        background-color: #5c1011;
+        height: 250px;
+        gap: 120px;
+        color: white;
+        justify-content: center;
+        padding-top: 30px;
+        
+    }
+
+    footer div h4 {
+        background-color: #d92123;
+        padding: 10px;
+    }
+
+    footer div h6 {
+            margin: 15px;
+            font-size: 0.90rem;
+            cursor: pointer;
+        }
+
+    footer > div > h5 {
+        margin-bottom: 20px;
+    }
+
+    div.line h6 {
+        border-bottom: 1px solid white;
+    }
+
+    div.tel h5 {
+        border: 1px solid var(--main-color);
+        margin-top: 15px;
+        text-align: center;
+    }
+  
