@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --laranja:#ED4D1B;
+    --amarelo:#FF9A3C;
+    --fundo:#FFE7D1;
+}
+
+@keyframes animation-arrow{
+    from{
+        transform: translateY(-20%);
+    }
+
+    to{
+        transform: translateY(20%);
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--fundo);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* overflow-x: hidden; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header,section,footer{
+    width: 100%;
+    border: 1px solid black;
+    border-top: 0;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+header img{
+    cursor: pointer;
+}
+
+header nav{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav a{
+    display: block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.links{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+.botoes{
+    background-color: var(--laranja);
+    color: black;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+    font-size: 1.25rem;
+    box-shadow: 4px 4px 0px black;
+    max-width: 200px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.botoes:hover{
+    background-color: #FF9A3C;
+}
+
+#secao1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 14rem;
+}
+
+#secao1 img{
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+h1{
+    font-size: 3rem;
+    /* padding: 1rem; */
+    font-weight: 900;
+    padding-right: 2rem;
+    
+}
+
+.destaque{
+    color: var(--laranja);
+    position: relative;
+}
+
+h1 > .destaque{
+    font-size: 3.4rem;
+}
+h1 > .destaque::after{
+    content: '';
+    background: url(img/three-dashes.svg);
+    position: absolute;
+    width:36px ;
+    height: 48px;
+    bottom: 25px;
+}
+
+#secao1-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+    width: 80%;
+
+}
+
+#secao1 p{
+    font-weight: bold;
+    padding-right: 2rem;
+}
+
+#secao1 .botoes{
+    position: relative;
+}
+
+#secao1 .botoes::after{
+    content: '';
+    display: block;
+    background: url(img/arrow-curve.svg) no-repeat;
+    width: 132px;
+    height:48px;
+    position: absolute;
+    left: 150px;
+    top: 70px;
+}
+
+#secao2{
+    padding-bottom: 80px;
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card:nth-child(2n){
+    align-self: flex-end;
+    justify-self: flex-end;
+    background-color: var(--amarelo);
+}
+
+.card{
+    width: 320px;
+    height: 340px;
+    box-shadow: 4px 4px 0px black;
+    border: 2px solid black;
+    background-color: var(--laranja);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.card h3{
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.card h3::before{
+    content: '';
+    height: 2px;
+    position: absolute;
+    width: 0%;
+    bottom: 0;
+    background-color: black;
+    transition: .3s;
+}
+
+.card h3:hover::before{
+    width: 50%;
+}
+
+.card img{
+    width: 50px;
+}
+
+.card p{
+    padding-right: 1rem;
+    font-weight: bold;
+}
+
+.card img:last-child{
+    align-self: flex-end;
+    position: relative;
+    top: 80px;
+    left: 20px;
+    cursor: pointer;
+}
+
+#secao2-texto{
+    margin: auto;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+#secao2-texto button{
+    margin-top: 20px;
+    max-width: 250px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#rodape-texto{
+    font-weight: bold;
+    padding-right: 2rem;
+}
+
+#rodape-texto p{
+    margin-top: 1rem;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#rodape-input{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#rodape-input p{
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+#rodape-input input{
+    width: 90%;
+    padding: .7rem;
+    box-shadow: 4px 4px 0px black;
+}
+
+#rodape-input button{
+    position: relative;
+}
+
+#seta-cima img{
+    display: none;
+    width: 40px;
+    animation: animation-arrow 1s linear infinite alternate;
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+}
+
+
+/* Media querys */
+
+@media screen and (min-width:900px){
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+    }
+
+    header nav{
+        gap: 20px;
+    }
+
+    #secao1 img{
+        width: 600px;
+    }
+
+    #cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #rodape-texto{
+        width: 33%;
+        padding: 0;
+    }
+    
+    #rodape-texto p{
+        line-height: 1.5rem;
+    }
+    
+    #rodape-input{
+        width: 33%;
+        padding-right: 0;
+    }
+
+}
+
+@media screen and (min-width:1300px){
+    #secao1{
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    #secao1 img{
+        width: 750px;
+    }
+
+    #secao1-texto{ 
+        margin-top: 0;
+        padding-left: 3rem;
+    }
+
+    #secao1-texto h1{
+        width: 80%;
+    }
+
+    #cards{
+        width: 100%;
+    }
+
+    .card{
+        width: 23%;
+        transition: .5s;
+    }
+
+    .card:hover{
+        transform: translateY(-20%);
+    }
+
+    .card img:last-child{
+        top: 60px;
+    }
+
+    .card:nth-child(2) img:last-child{
+        top: 75px;
+    }
+    
+    .card:nth-child(3) img:last-child{
+        top: 75px;
+    }
+
+    .card:nth-child(2n){
+        position: relative;
+        bottom: 20px;
+        transition: .5s;
+    }
+
+    .card:nth-child(2n):hover{
+        transform: translateY(15%);
+    }
+
+    #seta-cima{
+        display: block;
+    }
+}
+
+
+
