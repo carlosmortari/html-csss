@@ -1,0 +1,52 @@
+@media screen and (min-width:600px){
+   header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px;
+    height: 180px;
+    border-bottom: 1px solid var(--cor-vermelho-escuro);
+   }
+
+
+   div#descricao-nome {
+    height: 200px;
+    align-items: end;
+    border-bottom: none;
+   }
+
+   #informacoes-p h2 {
+    align-items: end;
+    justify-content: end;
+   }
+
+   #informacoes-p p {
+    text-align: right;
+    padding: 10px;
+   }
+
+   #foto-joselito {
+    display: none;
+   }
+
+   #informacoes-of h2 {
+    align-items: end;
+    justify-content: end;
+   }
+
+   #informacoes-of .text {
+    text-align: right;
+    padding: 12px;
+   }
+
+   #emprego {
+    align-items: end;
+    padding-right: 30px;
+   }
+
+   #primeiro {
+    margin-bottom: 20px;
+   }
+
+   
+}  
